@@ -1,0 +1,218 @@
+10.  INTELLECTUAL PROPERTY RIGHTS
+
+10.1.  General Policy
+
+   In all matters of intellectual property rights and procedures, the
+   intention is to benefit the Internet community and the public at
+   large, while respecting the legitimate rights of others.
+
+10.2  Confidentiality Obligations
+
+   No contribution that is subject to any requirement of confidentiality
+   or any restriction on its dissemination may be considered in any part
+   of the Internet Standards Process, and there must be no assumption of
+   any confidentiality obligation with respect to any such contribution.
+
+10.3.  Rights and Permissions
+
+   In the course of standards work, the IETF receives contributions in
+   various forms and from many persons.  To best facilitate the
+   dissemination of these contributions, it is necessary to understand
+   any intellectual property rights (IPR) relating to the contributions.
+
+10.3.1.  All Contributions
+
+   By submission of a contribution, each person actually submitting the
+   contribution is deemed to agree to the following terms and conditions
+   on his own behalf, on behalf of the organization (if any) he
+   represents and on behalf of the owners of any propriety rights in the
+   contribution..  Where a submission identifies contributors in
+   addition to the contributor(s) who provide the actual submission, the
+   actual submitter(s) represent that each other named contributor was
+   made aware of and agreed to accept the same terms and conditions on
+   his own behalf, on behalf of any organization he may represent and
+   any known owner of any proprietary rights in the contribution.
+
+   l. Some works (e.g. works of the U.S. Government) are not subject to
+      copyright.  However, to the extent that the submission is or may
+      be subject to copyright, the contributor, the organization he
+      represents (if any) and the owners of any proprietary rights in
+      the contribution, grant an unlimited perpetual, non-exclusive,
+      royalty-free, world-wide right and license to the ISOC and the
+      IETF under any copyrights in the contribution.  This license
+      includes the right to copy, publish and distribute the
+      contribution in any way, and to prepare derivative works that are
+      based on or incorporate all or part of the contribution, the
+      license to such derivative works to be of the same scope as the
+      license of the original contribution.
+
+   2. The contributor acknowledges that the ISOC and IETF have no duty
+      to publish or otherwise use or disseminate any contribution.
+
+   3. The contributor grants permission to reference the name(s) and
+      address(es) of the contributor(s) and of the organization(s) he
+      represents (if any).
+
+   4. The contributor represents that contribution properly acknowledge
+      major contributors.
+
+   5. The contribuitor, the organization (if any) he represents and the
+      owners of any proprietary rights in the contribution, agree that
+      no information in the contribution is confidential and that the
+      ISOC and its affiliated organizations may freely disclose any
+      information in the contribution.
+
+   6. The contributor represents that he has disclosed the existence of
+      any proprietary or intellectual property rights in the
+      contribution that are reasonably and personally known to the
+      contributor.  The contributor does not represent that he
+      personally knows of all potentially pertinent proprietary and
+      intellectual property rights owned or claimed by the organization
+      he represents (if any) or third parties.
+
+   7. The contributor represents that there are no limits to the
+      contributor's ability to make the grants acknowledgments and
+      agreements above that are reasonably and personally known to the
+      contributor.
+
+      By ratifying this description of the IETF process the Internet
+      Society warrants that it will not inhibit the traditional open and
+      free access to IETF documents for which license and right have
+      been assigned according to the procedures set forth in this
+      section, including Internet-Drafts and RFCs. This warrant is
+      perpetual and will not be revoked by the Internet Society or its
+      successors or assigns.
+
+10.3.2. Standards Track Documents
+
+   (A)  Where any patents, patent applications, or other proprietary
+      rights are known, or claimed, with respect to any specification on
+      the standards track, and brought to the attention of the IESG, the
+      IESG shall not advance the specification without including in the
+      document a note indicating the existence of such rights, or
+      claimed rights.  Where implementations are required before
+      advancement of a specification, only implementations that have, by
+      statement of the implementors, taken adequate steps to comply with
+      any such rights, or claimed rights, shall be considered for the
+      purpose of showing the adequacy of the specification.
+   (B)  The IESG disclaims any responsibility for identifying the
+      existence of or for evaluating the applicability of any claimed
+      copyrights, patents, patent applications, or other rights in the
+      fulfilling of the its obligations under (A), and will take no
+      position on the validity or scope of any such rights.
+
+
+
+
+Bradner                  Best Current Practice                 [Page 30]
+
+RFC 2026               Internet Standards Process           October 1996
+
+
+   (C)  Where the IESG knows of rights, or claimed rights under (A), the
+      IETF Executive Director shall attempt to obtain from the claimant
+      of such rights, a written assurance that upon approval by the IESG
+      of the relevant Internet standards track specification(s), any
+      party will be able to obtain the right to implement, use and
+      distribute the technology or works when implementing, using or
+      distributing technology based upon the specific specification(s)
+      under openly specified, reasonable, non-discriminatory terms.
+      The Working Group proposing the use of the technology with respect
+      to which the proprietary rights are claimed may assist the IETF
+      Executive Director in this effort.  The results of this procedure
+      shall not affect advancement of a specification along the
+      standards track, except that the IESG may defer approval where a
+      delay may facilitate the obtaining of such assurances.  The
+      results will, however, be recorded by the IETF Executive Director,
+      and made available.  The IESG may also direct that a summary of
+      the results be included in any RFC published containing the
+      specification.
+
+10.3.3  Determination of Reasonable and Non-discriminatory Terms
+
+   The IESG will not make any explicit determination that the assurance
+   of reasonable and non-discriminatory terms for the use of a
+   technology has been fulfilled in practice.  It will instead use the
+   normal requirements for the advancement of Internet Standards to
+   verify that the terms for use are reasonable.  If the two unrelated
+   implementations of the specification that are required to advance
+   from Proposed Standard to Draft Standard have been produced by
+   different organizations or individuals or if the "significant
+   implementation and successful operational experience" required to
+   advance from Draft Standard to Standard has been achieved the
+   assumption is that the terms must be reasonable and to some degree,
+   non-discriminatory.  This assumption may be challenged during the
+   Last-Call period.
+
+10.4.  Notices
+
+   (A)  Standards track documents shall include the following notice:
+
+         "The IETF takes no position regarding the validity or scope of
+         any intellectual property or other rights that might be claimed
+         to  pertain to the implementation or use of the technology
+         described in this document or the extent to which any license
+         under such rights might or might not be available; neither does
+         it represent that it has made any effort to identify any such
+         rights.  Information on the IETF's procedures with respect to
+         rights in standards-track and standards-related documentation
+         can be found in BCP-11.  Copies of claims of rights made
+         available for publication and any assurances of licenses to
+         be made available, or the result of an attempt made
+         to obtain a general license or permission for the use of such
+         proprietary rights by implementors or users of this
+         specification can be obtained from the IETF Secretariat."
+
+   (B)  The IETF encourages all interested parties to bring to its
+      attention, at the earliest possible time, the existence of any
+      intellectual property rights pertaining to Internet Standards.
+      For this purpose, each standards document shall include the
+      following invitation:
+
+         "The IETF invites any interested party to bring to its
+         attention any copyrights, patents or patent applications, or
+         other proprietary rights which may cover technology that may be
+         required to practice this standard.  Please address the
+         information to the IETF Executive Director."
+
+   (C)  The following copyright notice and disclaimer shall be included
+      in all ISOC standards-related documentation:
+
+         "Copyright (C) The Internet Society (date). All Rights
+         Reserved.
+
+         This document and translations of it may be copied and
+         furnished to others, and derivative works that comment on or
+         otherwise explain it or assist in its implmentation may be
+         prepared, copied, published and distributed, in whole or in
+         part, without restriction of any kind, provided that the above
+         copyright notice and this paragraph are included on all such
+         copies and derivative works.  However, this document itself may
+         not be modified in any way, such as by removing the copyright
+         notice or references to the Internet Society or other Internet
+         organizations, except as needed for the  purpose of developing
+         Internet standards in which case the procedures for copyrights
+         defined in the Internet Standards process must be followed, or
+         as required to translate it into languages other than English.
+
+         The limited permissions granted above are perpetual and will
+         not be revoked by the Internet Society or its successors or
+         assigns.
+
+         This document and the information contained herein is provided
+         on an "AS IS" basis and THE INTERNET SOCIETY AND THE INTERNET
+         ENGINEERING TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR
+         IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE
+         OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY
+         IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
+         PARTICULAR PURPOSE."
+
+   (D)  Where the IESG is aware at the time of publication of
+      proprietary rights claimed with respect to a standards track
+      document, or the technology described or referenced therein, such
+      document shall contain the following notice:
+
+         "The IETF has been notified of intellectual property rights
+         claimed in regard to some or all of the specification contained
+         in this document.  For more information consult the online list
+         of claimed rights."

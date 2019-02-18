@@ -1,0 +1,371 @@
+= CalConnect Directive: Intellectual property rights policy
+:title: CalConnect Directive: Intellectual property rights policy
+:docnumber: 10006
+:copyright-year: 2019
+:language: en
+:doctype: directive
+:edition: 1
+:status: draft-standard
+:revdate: 2019-02-15
+:script: Latn
+:technical-committee: PUBLISH
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:imagesdir: images
+:docfile: cc-10006.adoc
+:mn-document-class: csd
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+:data-uri-image:
+:sectnums!:
+
+//:published-date: 2019-02-15
+
+.Foreword
+The Calendaring and Scheduling Consortium ("`CalConnect`") is global
+non-profit organization with the aim to facilitate interoperability of
+collaborative technologies and tools through open standards.
+
+CalConnect works closely with international and regional partners,
+of which the full list is available on our website
+(https://www.calconnect.org/about/liaisons-and-relationships).
+
+The procedures used to develop this document and those intended for its
+further maintenance are described in the CalConnect Directives.
+
+In particular the different approval criteria needed for the different
+types of CalConnect documents should be noted. This document was drafted in
+accordance with the editorial rules of the CalConnect Directives.
+
+Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be
+held responsible for identifying any or all such patent rights. Details
+of any patent rights identified during the development of the document
+will be provided in the Introduction.
+
+////
+TODO: re-enable when we finish the IPR policy
+and/or on the CalConnect list of patent
+declarations received (see www.calconnect.com/patents).
+////
+
+Any trade name used in this document is information given for the
+convenience of users and does not constitute an endorsement.
+
+This document was prepared by Technical Committee
+_{technical-committee}_.
+
+== Introduction
+
+=== General
+
+CalConnect is committed in expanding the realm of standards
+in collaborative technologies with a focus on interoperability
+across the globe and communities of practice.
+
+In the CalConnect standardization process described in <<CCSTD>>,
+contributions are received from various forms and parties.
+As a proponent of open standards, CalConnect is required to
+address any intellectual property rights in such contributions
+to be able to publish standardization deliverables.
+
+This document details the IPR policy of CalConnect covering
+all CalConnect standardization activities, covering
+generally the following categories:
+
+* Copyright
+* Trademarks
+* Patents
+
+
+
+
+=== Purpose
+
+This document describes the intellectual property rights policy of
+CalConnect that aims to be simple and straightforward.
+
+CalConnect deliverables are drawn up by technical, not IPR, experts,
+who may not be fully aware of all nuisances in the complex
+international legal situation of intellectual property rights.
+
+CalConnect deliverables are non-binding -- their objective is to ensure
+compatibility of technologies and systems on a worldwide basis.
+
+To ensure the applicability and accessibility of CalConnect
+deliverables, the implementation and continued usage of content within
+the deliverables must be possible to the worldwide audience without
+discrimination, including any intellectual property rights embodiment
+in such deliverables.
+
+
+
+:sectnums:
+
+== Scope
+
+This document provides the CalConnect intellectual property rights
+policy, which governs all standardization activities at CalConnect.
+
+The CalConnect patent policy is described in <<CCPAT>>.
+
+
+[bibliography]
+== Normative References
+
+* [[[CCSTD,CC/DIR 10001]]], _CalConnect Directive 10001: Standardization and publication_
+
+* [[[CCPAT,CC/DIR 10003]]], _CalConnect Directive 10003: Patent policy_
+
+
+[source="CCSTD"]
+[[terms]]
+== Terms and definitions
+
+[[term-contribution]]
+=== contribution
+
+material provided as input to a CalConnect standardization activity
+
+NOTE: a contribution can be provided by a member of CalConnect or an external party
+
+
+=== contributor
+
+party that provides a _contribution_ (<<term-contribution>>)
+
+
+
+[[confidentiality]]
+== Confidentiality
+
+No confidential material is to be discussed at or during CalConnect standardization activities.
+
+All information provided or discussed in CalConnect activities is presumed to be public information and member participants are reminded that they should not discuss or reveal any confidential information of their respective organizations.
+
+While work in progress within CalConnect is not publicly available outside CalConnect, with minor exceptions, completed work products of CalConnect are intended to be publicly and freely available, and will be posted on the CalConnect web site.
+
+
+
+[[contributions]]
+== Contributions
+
+
+=== No confidential material
+
+Participants in CalConnect standardization activities must avoid providing contributions containing confidential material, regardless whether provided in person or via electronic means.
+
+
+=== Mandatory disclosure of intellectual property
+
+Contributions which contain intellectual property of an organization must be disclosed and are subject to the rules and guidance provided in this document.
+
+Such contributions shall be avoided unless such material can be shown to be, in the judgment of the participants in the activity and the CalConnect Board of Directors, essential to the work.
+
+No material which is subject to any terms of confidentiality or restriction of dissemination on the part of its contributor or the contributor's organization can be accepted for such use.
+
+Individuals participating in the activities of the Consortium are responsible for determining that material which they contribute is made available by their organizations in accordance with this provision.
+
+
+=== Copyright provisions
+
+If any part of a contribution is or may be subject to copyright, the contributor and his or her organization, and any other owners of any proprietary rights in the contribution, grant CalConnect a world-wide, non-exclusive, non-sub-licensable license (except for the submission and adoption by other standardization bodies), to use contents of submitted documents to CalConnect, for the development and publishing of the deliverables.
+
+////
+Previous:
+grant an unlimited perpetual, non-exclusive, royalty-free, world-wide right and license to The Calendaring and Scheduling Consortium under any copyrights in the contribution.
+////
+
+This license includes the right to copy, publish and distribute the contribution in any way, and to prepare derivative works that are based on or incorporate all or part of the contribution, the license to such derivative works to be of the same scope as the license of the original contribution.
+
+NOTE: This is in alignment with <<IETFRFC2026,clause="10.3.1.1">>.
+
+////
+IETF RFC 2026 10.3.1.1
+
+ 1. Some works (e.g. works of the U.S. Government) are not subject to
+    copyright.  However, to the extent that the submission is or may
+    be subject to copyright, the contributor, the organization he
+    represents (if any) and the owners of any proprietary rights in
+    the contribution, grant an unlimited perpetual, non-exclusive,
+    royalty-free, world-wide right and license to the ISOC and the
+    IETF under any copyrights in the contribution.  This license
+    includes the right to copy, publish and distribute the
+    contribution in any way, and to prepare derivative works that are
+    based on or incorporate all or part of the contribution, the
+    license to such derivative works to be of the same scope as the
+    license of the original contribution.
+////
+
+=== Admission and usage
+
+CalConnect has no duty to admit, publish or otherwise use or disseminate any contribution.
+
+NOTE: This is in alignment with <<IETFRFC2026,clause="10.3.1.2">>.
+
+
+=== Reference
+
+The contributor grants permission to reference the names and
+addresses of contributors of a contribution and of the organizations he or she
+represents (if any).
+
+NOTE: This is in alignment with <<IETFRFC2026,clause="10.3.1.3">>.
+
+
+=== Source disclosure
+
+A contribution must properly acknowledge all major contributors of that contribution.
+
+NOTE: This is in alignment with <<IETFRFC2026,clause="10.3.1.4">>.
+
+
+
+=== IPR disclosure
+
+The contributor when submitting a contribution, represents
+that he or she has disclosed the existence of
+any proprietary or intellectual property rights in the
+contribution that are reasonably and personally known to the
+contributor.
+
+The contributor does not represent that he or she
+personally knows of all potentially pertinent proprietary and
+intellectual property rights owned or claimed by the organization
+he represents (if any) or third parties.
+
+For patents, please refer to the CalConnect Patent Policy at <<CCPAT>>.
+
+
+NOTE: This is in alignment with <<IETFRFC2026,clause="10.3.1.5">> and <<IETFRFC2026,clause="10.3.1.6">>.
+
+
+=== Warranty
+
+The contributor is deemed to agree to the terms and conditions
+set in this document when submitting a contribution.
+
+The contributor represents that there are no limits to the
+contributor's ability to make the grants acknowledgments and
+agreements detailed in this document that are reasonably and personally known to the
+contributor.
+
+This agreement is made on his or her own behalf, on behalf of the organization (if any),
+or on behalf of the owners of any propriety rights in the
+contribution.
+
+Where a contribution identifies contributors in
+addition to the contributor(s) who provided it, the
+submitter(s) represent that each other named contributor was
+made aware of and agreed to accept the same terms and conditions on
+his own behalf, on behalf of any organization he may represent and
+any known owner of any proprietary rights in the contribution.
+
+This warrant is perpetual and will not be revoked by CalConnect or its
+successors or assigns.
+
+
+NOTE: This is in alignment with <<IETFRFC2026,clause="10.3.1">>.
+
+
+
+== Trademarks
+
+=== General
+
+The requirements listed in this clause aligns with <<ITUMARKS>>.
+
+
+=== Impartiality of deliverables
+
+Proper names, trademarks, service marks or certification marks of specific companies/organizations, products or services should not be included in the text of a CalConnect standardization deliverable if it appears that they might cause any endorsement effect on a reader of the deliverable.
+
+NOTE: CalConnect standardization deliverables generally provide a description
+of features from which interoperable implementations can be developed.
+As such, the appearance of an endorsement of products, services and
+companies/organizations are not acceptable.
+
+=== Non-endorsement usage
+
+Trademarks, service marks or certification marks may be included in a CalConnect standardization deliverable in order to describe certain technologies or services pertaining to the relevant marks, given that the inclusion does not cause appearance of an endorsement.
+
+Here are some situations where this usage is acceptable.
+
+. The mark is used to refer to a particular facility that is widely recognized as a sole authorized source. +
+[example]
+A reference to a proprietary service with a trademark associated with a specific protocol identifier allocated by the ITU-T or IANA.
+
+. The mark is contained in the designation of a reference. +
+[example]
+Standards bodies often include their name as part of the identifier of their standards. A deliverable may reference "`ISO/IEC xxxx`", "`ITU-T xxxx`", where "`ISO`", "`IEC`" and "`ITU-T`" are protected marks.
+
+. The mark is a well-known reference to a standardized industry approach. +
+[example]
+"`WiFi`", "`Bluetooth`", "`GSM`".
+
+
+=== Proper use references
+
+With justifiable reasons, it is permissible to make "`proper use`"
+references to marks owned by an external party in a
+CalConnect standardization deliverable, however the usage
+shall adhere to the following guidelines set below in order to
+avoid infringement of rights relating to such marks.
+
+A mark shall only be used as part of accurate, factual statements
+as a means to identify (but not to endorse) a particular object (such as the designations of referenced standards in the text of a deliverable).
+
+Marks should be used in accordance with the following guidelines:
+
+. a mark should be used as a proper adjective followed by a generic name or noun;
+NOTE: Marks are proper adjectives that indicate the source of goods, services or things, and not to be used as a verb or noun.
+
+. marks must not be combined in text;
+
+. marks must not be altered, shortened or abbreviated.
+
+////
+[example]
+Example: Incorrect: “This protocol can be used for transport over WiMax and WiFi.” Correct: “This protocol can be used for transport over WiMax infrastructure and WiFi infrastructure.”
+////
+
+////
+[example]
+Example: Incorrect: “This protocol can be used for transport over WiMax/WiFi infrastructure.” Correct: “This protocol can be used for transport over WiMax infrastructure and WiFi infrastructure.”
+////
+
+////
+[example]
+Incorrect: “This specification supports the use of an AP Services Router.” Correct: “This specification supports the use of an Access Point Services Router.”
+////
+
+
+////
+== Software
+
+=== General
+
+In situations where software is included in CalConnect standardization deliverables,
+the following rules must be adhered to.
+
+=== Source code contributions
+
+Software contributions included in a standardization deliverable must have
+its source code made available for free and not require implementers to be
+subject to a third-party license that does not meet software licensing requirements set forth herein.
+////
+
+
+
+[bibliography]
+== Bibliography
+
+* [[[CCDOC,CC/DIR 10002]]], _CalConnect Directive 10002: Document requirements_
+
+* [[[IETFRFC2026,IETF RFC 2026]]], _IETF RFC 2026: Internet Standards Process_
+
+* [[[ITUMARKS,ITU-T Marks Guidelines 2.0]]], _ITU-T GUIDELINES RELATED TO THE INCLUSION OF MARKS IN ITU-T RECOMMENDATIONS, Issue 2.0_, November 2005.
+
+* [[[ITUSoftware,ITU Software Copyright Guidelines]]], _ITU Software Copyright Guidelines_, 7/12/2011

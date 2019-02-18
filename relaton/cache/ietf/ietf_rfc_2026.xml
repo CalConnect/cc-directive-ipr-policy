@@ -1,0 +1,33 @@
+<bibitem id="RFC2026">
+  <fetched>2019-02-18</fetched>
+  <title format="plain" language="en" script="Latn">The Internet Standards Process -- Revision 3</title>
+  <uri type="src">https://www.rfc-editor.org/info/rfc2026</uri>
+  <docidentifier type="IETF">RFC 2026</docidentifier>
+  <docidentifier type="DOI">10.17487/RFC2026</docidentifier>
+  <date type="published">
+    <on>1996</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename language="en">S. Bradner</completename>
+      </name>
+      <affiliation>
+        <organization>
+          <name>IETF</name>
+          <abbreviation>IETF</abbreviation>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <language>en</language>
+  <series type="main">
+    <title format="plain" language="en" script="Latn">BCP</title>
+    <number>9</number>
+  </series>
+  <series type="main">
+    <title format="plain" language="en" script="Latn">RFC</title>
+    <number>2026</number>
+  </series>
+</bibitem>

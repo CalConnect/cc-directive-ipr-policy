@@ -1,0 +1,151 @@
+From the original IETF document, the following phrases have been superseded by the ISO/ITU Common Patent Policy:
+
+10.3.2. Standards Track Documents
+
+   (A)  Where any patents, patent applications, or other proprietary
+      rights are known, or claimed, with respect to any specification on
+      the standards track, and brought to the attention of the IESG, the
+      IESG shall not advance the specification without including in the
+      document a note indicating the existence of such rights, or
+      claimed rights.  Where implementations are required before
+      advancement of a specification, only implementations that have, by
+      statement of the implementors, taken adequate steps to comply with
+      any such rights, or claimed rights, shall be considered for the
+      purpose of showing the adequacy of the specification.
+   (B)  The IESG disclaims any responsibility for identifying the
+      existence of or for evaluating the applicability of any claimed
+      copyrights, patents, patent applications, or other rights in the
+      fulfilling of the its obligations under (A), and will take no
+
+   (C)  Where the IESG knows of rights, or claimed rights under (A), the
+      IETF Executive Director shall attempt to obtain from the claimant
+      of such rights, a written assurance that upon approval by the IESG
+      of the relevant Internet standards track specification(s), any
+      party will be able to obtain the right to implement, use and
+      distribute the technology or works when implementing, using or
+      distributing technology based upon the specific specification(s)
+      under openly specified, reasonable, non-discriminatory terms.
+      The Working Group proposing the use of the technology with respect
+      to which the proprietary rights are claimed may assist the IETF
+      Executive Director in this effort.  The results of this procedure
+      shall not affect advancement of a specification along the
+      standards track, except that the IESG may defer approval where a
+      delay may facilitate the obtaining of such assurances.  The
+      results will, however, be recorded by the IETF Executive Director,
+      and made available.  The IESG may also direct that a summary of
+      the results be included in any RFC published containing the
+      specification.
+
+10.3.3  Determination of Reasonable and Non-discriminatory Terms
+
+   The IESG will not make any explicit determination that the assurance
+   of reasonable and non-discriminatory terms for the use of a
+   technology has been fulfilled in practice.  It will instead use the
+   normal requirements for the advancement of Internet Standards to
+   verify that the terms for use are reasonable.  If the two unrelated
+   implementations of the specification that are required to advance
+   from Proposed Standard to Draft Standard have been produced by
+   different organizations or individuals or if the "significant
+   implementation and successful operational experience" required to
+   advance from Draft Standard to Standard has been achieved the
+   assumption is that the terms must be reasonable and to some degree,
+   non-discriminatory.  This assumption may be challenged during the
+   Last-Call period.
+
+
+--------------------
+
+Move this Foreword content into doc requirements:
+
+The Calendaring and Scheduling Consortium (“CalConnect”) is global non-profit organization with the aim to facilitate interoperability of collaborative technologies and tools through open standards.
+
+CalConnect works closely with international and regional partners, of which the full list is available on our website (https://www.calconnect.org/about/liaisons-and-relationships).
+
+The procedures used to develop this document and those intended for its further maintenance are described in the CalConnect Directives.
+
+In particular the different approval criteria needed for the different types of CalConnect documents should be noted. This document was drafted in accordance with the editorial rules of the CalConnect Directives.
+
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. CalConnect shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be provided in the Introduction.
+
+Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.
+
+This document was prepared by Technical Committee PUBLISH.
+
+-----------------------
+
+
+This is about boilerplates of IPR notices.
+
+10.4.  Notices
+
+   (A)  Standards track documents shall include the following notice:
+
+         "The IETF takes no position regarding the validity or scope of
+         any intellectual property or other rights that might be claimed
+         to  pertain to the implementation or use of the technology
+         described in this document or the extent to which any license
+         under such rights might or might not be available; neither does
+         it represent that it has made any effort to identify any such
+         rights.  Information on the IETF's procedures with respect to
+         rights in standards-track and standards-related documentation
+         can be found in BCP-11.  Copies of claims of rights made
+         available for publication and any assurances of licenses to
+         be made available, or the result of an attempt made
+         to obtain a general license or permission for the use of such
+         proprietary rights by implementors or users of this
+         specification can be obtained from the IETF Secretariat."
+
+   (B)  The IETF encourages all interested parties to bring to its
+      attention, at the earliest possible time, the existence of any
+      intellectual property rights pertaining to Internet Standards.
+      For this purpose, each standards document shall include the
+      following invitation:
+
+         "The IETF invites any interested party to bring to its
+         attention any copyrights, patents or patent applications, or
+         other proprietary rights which may cover technology that may be
+         required to practice this standard.  Please address the
+         information to the IETF Executive Director."
+
+   (C)  The following copyright notice and disclaimer shall be included
+      in all ISOC standards-related documentation:
+
+         "Copyright (C) The Internet Society (date). All Rights
+         Reserved.
+
+         This document and translations of it may be copied and
+         furnished to others, and derivative works that comment on or
+         otherwise explain it or assist in its implmentation may be
+         prepared, copied, published and distributed, in whole or in
+         part, without restriction of any kind, provided that the above
+         copyright notice and this paragraph are included on all such
+         copies and derivative works.  However, this document itself may
+         not be modified in any way, such as by removing the copyright
+         notice or references to the Internet Society or other Internet
+         organizations, except as needed for the  purpose of developing
+         Internet standards in which case the procedures for copyrights
+         defined in the Internet Standards process must be followed, or
+         as required to translate it into languages other than English.
+
+         The limited permissions granted above are perpetual and will
+         not be revoked by the Internet Society or its successors or
+         assigns.
+
+         This document and the information contained herein is provided
+         on an "AS IS" basis and THE INTERNET SOCIETY AND THE INTERNET
+         ENGINEERING TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR
+         IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE
+         OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY
+         IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
+         PARTICULAR PURPOSE."
+
+   (D)  Where the IESG is aware at the time of publication of
+      proprietary rights claimed with respect to a standards track
+      document, or the technology described or referenced therein, such
+      document shall contain the following notice:
+
+         "The IETF has been notified of intellectual property rights
+         claimed in regard to some or all of the specification contained
+         in this document.  For more information consult the online list
+         of claimed rights."
+
