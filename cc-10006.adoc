@@ -88,7 +88,7 @@ This document describes the intellectual property rights policy of
 CalConnect that aims to be simple and straightforward.
 
 CalConnect deliverables are drawn up by technical, not IPR, experts,
-who may not be fully aware of all nuisances in the complex
+who may not be fully aware of all nuances in the complex
 international legal situation of intellectual property rights.
 
 CalConnect deliverables are non-binding -- their objective is to ensure
@@ -137,15 +137,24 @@ NOTE: a contribution can be provided by a member of CalConnect or an external pa
 party that provides a _contribution_ (<<term-contribution>>)
 
 
+[[standardization-activities]]
+== Standardization activities
 
 [[confidentiality]]
-== Confidentiality
+=== No confidential material
 
 No confidential material is to be discussed at or during CalConnect standardization activities.
 
 All information provided or discussed in CalConnect activities is presumed to be public information and member participants are reminded that they should not discuss or reveal any confidential information of their respective organizations.
 
 While work in progress within CalConnect is not publicly available outside CalConnect, with minor exceptions, completed work products of CalConnect are intended to be publicly and freely available, and will be posted on the CalConnect web site.
+
+
+=== Mandatory disclosure of intellectual property rights
+
+Discussions that relate to known or potential intellectual property rights during CalConnect standardization activities must be performed under full disclosure of such rights.
+
+Individuals participating in the activities of CalConnect are responsible for determining that such rights when known, must be disclosed in accordance with this provision.
 
 
 
@@ -158,7 +167,7 @@ While work in progress within CalConnect is not publicly available outside CalCo
 Participants in CalConnect standardization activities must avoid providing contributions containing confidential material, regardless whether provided in person or via electronic means.
 
 
-=== Mandatory disclosure of intellectual property
+=== Mandatory disclosure of intellectual property rights
 
 Contributions which contain intellectual property of an organization must be disclosed and are subject to the rules and guidance provided in this document.
 
@@ -166,7 +175,7 @@ Such contributions shall be avoided unless such material can be shown to be, in 
 
 No material which is subject to any terms of confidentiality or restriction of dissemination on the part of its contributor or the contributor's organization can be accepted for such use.
 
-Individuals participating in the activities of the Consortium are responsible for determining that material which they contribute is made available by their organizations in accordance with this provision.
+Individuals participating in the activities of CalConnect are responsible for determining that material which they contribute is made available by their organizations in accordance with this provision.
 
 
 === Copyright provisions
@@ -319,7 +328,8 @@ as a means to identify (but not to endorse) a particular object (such as the des
 
 Marks should be used in accordance with the following guidelines:
 
-. a mark should be used as a proper adjective followed by a generic name or noun;
+. a mark should be used as a proper adjective followed by a generic name or noun; +
++
 NOTE: Marks are proper adjectives that indicate the source of goods, services or things, and not to be used as a verb or noun.
 
 . marks must not be combined in text;
