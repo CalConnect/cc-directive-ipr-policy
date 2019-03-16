@@ -6,7 +6,8 @@
 :doctype: directive
 :edition: 1
 :status: draft-standard
-:revdate: 2019-02-15
+:revdate: 2019-03-16
+:published-date: 2019-03-16
 :script: Latn
 :technical-committee: PUBLISH
 :draft:
@@ -21,7 +22,6 @@
 :data-uri-image:
 :sectnums!:
 
-//:published-date: 2019-02-15
 
 .Foreword
 The Calendaring and Scheduling Consortium ("`CalConnect`") is a global
