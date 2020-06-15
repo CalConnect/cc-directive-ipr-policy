@@ -1,0 +1,1227 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Source Sans Pro", sans-serif; }
+
+code, pre, tt, kbd, samp {
+  font-family: "Source Code Pro", monospace;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Source Code Pro", monospace !important;
+  font-variant-ligatures: none; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", sans-serif; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: "Source Sans Pro", sans-serif; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+#standard-band {
+  background-color: #0AC442; }
+
+#standard {
+  border-bottom: solid 3px #0AC442; }
+
+#directive-band {
+  background-color: #540D6E; }
+
+#directive {
+  border-bottom: solid 3px #540D6E; }
+
+#guide-band {
+  background-color: #D183C9; }
+
+#guide {
+  border-bottom: solid 3px #D183C9; }
+
+#specification-band {
+  background-color: #65AFFF; }
+
+#specification {
+  border-bottom: solid 3px #65AFFF; }
+
+#report-band {
+  background-color: #3A405A; }
+
+#report {
+  border-bottom: solid 3px #3A405A; }
+
+#amendment-band {
+  background-color: #F26430; }
+
+#amendment {
+  border-bottom: solid 3px #F26430; }
+
+#corrigendum-band {
+  background-color: #C84630; }
+
+#corrigendum {
+  border-bottom: solid 3px #C84630; }
+
+#administrative-band {
+  background-color: #BFAE48; }
+
+#administrative {
+  border-bottom: solid 3px #BFAE48; }
+
+#advisory-band {
+  background-color: #BD9391; }
+
+#advisory {
+  border-bottom: solid 3px #BD9391; }
+
+#proposal-band {
+  background-color: #39A0ED; }
+
+#proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#working-draft-band {
+  background-color: #2D7393; }
+
+#working-draft {
+  border-bottom: solid 3px #2D7393; }
+
+#committee-draft-band {
+  background-color: #2A6B7C; }
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C; }
+
+#draft-standard-band {
+  background-color: #1C7F7A; }
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A; }
+
+#final-draft-band {
+  background-color: #53C170; }
+
+#final-draft {
+  border-bottom: solid 3px #53C170; }
+
+#published-band {
+  background-color: #069E2D; }
+
+#published {
+  border-bottom: solid 3px #069E2D; }
+
+#withdrawn-band {
+  background-color: #004E64; }
+
+#withdrawn {
+  border-bottom: solid 3px #004E64; }
+
+#cancelled-band {
+  background-color: #2E382E; }
+
+#cancelled {
+  border-bottom: solid 3px #2E382E; }
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #1d1d1d;
+  background-color: #fff; }
+  body main {
+    margin: 0 3em 0 6em; }
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px; } }
+
+@media print {
+  .container {
+    padding-left: 0; } }
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 45px;
+    background-color: #f7f7f7; } }
+
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white; } }
+
+nav #toc {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400; }
+  @media screen and (max-width: 768px) {
+    nav #toc {
+      padding: 0 1.5em;
+      overflow: visible; } }
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #1d1d1d;
+    color: white !important;
+    cursor: pointer;
+    z-index: 100; }
+    #toggle span {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%); } }
+
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none; } }
+
+@media print {
+  #toggle {
+    display: none; } }
+
+#toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  #toc ul li a {
+    padding: 5px 10px; }
+  #toc ul a {
+    color: #485094;
+    text-decoration: none;
+    display: block; }
+    #toc ul a:hover {
+      box-shadow: none;
+      color: white; }
+
+#toc .h2 {
+  padding-left: 30px; }
+
+#toc .h3 {
+  padding-left: 50px; }
+
+#toc .toc-active, #toc li:hover {
+  background: #1d1d1d;
+  box-shadow: inset -5px 0px 10px -5px #1d1d1d !important; }
+  #toc .toc-active a, #toc li:hover a {
+    color: white; }
+
+@media print {
+  #toc .toc-active, #toc li:hover {
+    background: white;
+    box-shadow: none !important; }
+  #toc .toc-active a {
+    color: #485094; }
+  #toc li:hover a {
+    color: black; } }
+
+#toc ul {
+  margin-bottom: 0.25em; }
+
+#toc li {
+  list-style-type: none; }
+  #toc li:before {
+    content: " " !important;
+    display: none; }
+
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+  @media screen and (min-width: 768px) {
+    .rule.toc {
+      display: none; } }
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 300;
+    height: 160px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+/* Typograpy */
+h1, h2, h3, h4, h5, h6 {
+  color: #0e1a85;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.3em; }
+
+h1 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-top: 2em; }
+  h1#content {
+    margin-top: 2em; }
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 400; }
+  h2 p {
+    display: inline; }
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 400; }
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+/* Terms */
+.TermNum, .Terms, .AltTerms {
+  color: #485094;
+  font-weight: 400; }
+
+p.TermNum {
+  font-size: 0.9em;
+  line-height: 1em;
+  margin: 0;
+  margin-top: 2em; }
+
+p.Terms {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  margin: 0; }
+
+/* Links, selection */
+a, a:visited {
+  text-decoration: none;
+  color: #485094; }
+
+a:hover {
+  color: white;
+  background: #1d1d1d;
+  box-shadow: 3px 0 0 #1d1d1d, -3px 0 0 #1d1d1d; }
+
+::selection,
+::-moz-selection {
+  background: #1d1d1d;
+  color: white; }
+
+/* Lists */
+ol {
+  margin-left: 1.2em; }
+
+ul {
+  position: relative;
+  margin-left: 0;
+  list-style: none;
+  padding-left: 1.2em; }
+
+ul > li:before {
+  content: "\2014";
+  position: absolute;
+  left: 0; }
+
+main li {
+  margin-top: 1em;
+  padding-left: 0.5em; }
+
+/* Bibliograhy */
+p.Biblio, p.NormRef {
+  margin-top: 1em; }
+
+p.Biblio:before, p.NormRef:before {
+  content: "\2014";
+  padding-right: 1em; }
+
+/* Blocks */
+.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-family: "Source Code Pro", monospace;
+  font-variant-ligatures: none; }
+  .figure .FigureTitle, .figure .figure-title {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  .figure > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+pre {
+  font-family: "Source Code Pro", monospace;
+  font-variant-ligatures: none;
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow-y: auto;
+  overflow-x: scroll; }
+  .example pre {
+    background: none; }
+
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  .example .pseudocode {
+    background: none; }
+
+.Admonition .AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.recommend .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.require .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.permission .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.Note, .Admonition {
+  color: #47430c;
+  padding: 0.25em;
+  margin: 0; }
+
+.Note {
+  background-color: #fff495; }
+  .Note p {
+    margin: 1em; }
+
+.blockquote, .Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+  .blockquote .QuoteAttribution, .Quote .QuoteAttribution {
+    text-align: right; }
+
+.formula, .Formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center; }
+
+/* Examples */
+table.example {
+  background-color: #e1eef1; }
+
+td.example {
+  padding: 0 1em 0 1em;
+  margin: 2em 0 1em 0; }
+
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  padding-left: 2em; }
+
+.example p {
+  margin: 0; }
+
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -1.5em; }
+
+.example pre, .example .pseudocode {
+  background: none; }
+
+/* Tables */
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weigth: 400; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400; }
+
+/* Footnotes */
+a.footnote-number {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: 0.9em; }
+
+/* Contact Info */
+.contact-info {
+  background-color: #f7f7f7;
+  padding: 1em;
+  margin-top: 2em;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; }
+  .contact-info p, .contact-info a {
+    font-family: "Source Code Pro", monospace;
+    font-variant-ligatures: none;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-size: 1em;
+    margin: 0; }
+  .contact-info a:hover {
+    color: #485094;
+    background: none;
+    text-decoration: underline;
+    box-shadow: none; }
+  .contact-info .name {
+    font-weight: 700; }
+
+/* Keywords */
+span.keyword {
+  font-weight: 600; }
+
+/* Admonitions */
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+  .Admonition p, .admonition p {
+    margin: 0; }
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em; }
+
+.wrapper-top {
+  background-color: #0e1a85;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAACXBIWXMAABYlAAAWJQFJUiTwAAADwUlEQVR4nO3YgQ2AMAwDwcAiWZ1NizrH30lIeIEq9nPOGSDqPgC7+93v/suy3Mmvhx+6VAAIcwFAmc4nyzYAIMgGAGEuACirdyBZtgEASTYACHMBQFm9A8myDQBIsgFAmAsAyuodSJZtAECSDQDCXABQVu9AsmwDAJJsABDmAoCyegeSZRsAkGQDgDAXAJTVO5As2wCAJBsAhLkAoKzegWTZBgAk2QAgzAUAZfUOJMs2ACDJBgBhLgAoq3cgWbYBAEk2AAhzAUBZvQPJsg0ASLIBQJgLAMrqHUiWbQBAkg0AwlwAUFbvQLJsAwCSbAAQ5gKAsnoHkmUbAJBkA4AwFwCU1TuQLNsAgCQbAIS5AKCs3oFk2QYAJNkAIMwFAGX1DiTLNgAgyQYAYS4AKKt3IFm2AQBJNgAIcwFAWb0DybINAEiyAUCYCwDK6h1Ilm0AQJINAMJcAFBW70CybAMAkmwAEOYCgLJ6B5JlGwCQZAOAMBcAlNU7kCzbAIAkGwCEuQCgrN6BZNkGACTZACDMBQBl9Q4kyzYAIMkGAGEuACirdyBZtgEASTYACHMBQFm9A8myDQBIsgFAmAsAyuodSJZtAECSDQDCXABQVu9AsmwDAJJsABDmAoCyegeSZRsAkGQDgDAXAJTVO5As2wCAJBsAhLkAoKzegWTZBgAk2QAgzAUAZfUOJMs2ACDJBgBhLgAoq3cgWbYBAEk2AAhzAUBZvQPJsg0ASLIBQJgLAMrqHUiWbQBAkg0AwlwAUFbvQLJsAwCSbAAQ5gKAsnoHkmUbAJBkA4AwFwCU1TuQLNsAgCQbAIS5AKCs3oFk2QYAJNkAIMwFAGX1DiTLNgAgyQYAYS4AKKt3IFm2AQBJNgAIcwFAWb0DybINAEiyAUCYCwDK6h1Ilm0AQJINAMJcAFBW70CybAMAkmwAEOYCgLJ6B5JlGwCQZAOAMBcAlNU7kCzbAIAkGwCEuQCgrN6BZNkGACTZACDMBQBl9Q4kyzYAIMkGAGEuACirdyBZtgEASTYACHMBQFm9A8myDQBIsgFAmAsAyuodSJZtAECSDQDCXABQVu9AsmwDAJJsABDmAoCyegeSZRsAkGQDgDAXAJTVO5As2wCAJBsAhLkAoKzegWTZBgAk2QAgzAUAZfUOJMs2ACDJBgBhLgAoq3cgWbYBAEk2AAhzAUBZvQPJsg0ASLIBQJgLAMrqHUiWbQBAkg0AwlwAUFbvQLJsAwCSbAAQ5gKAsnoHkmUbAJBkA4AwFwCU1TuQLNsAgCQbAFTNzA9ggAr9aahO8QAAAABJRU5ErkJggg==");
+  color: #ffffff;
+  padding: 2em 0; }
+
+.doc-number {
+  font-size: 0.5em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.coverpage-maturity {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 600;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.title-section1 {
+  padding: 0 2em 0 3em; }
+
+.prefatory-section {
+  padding: 0 3em 0 6em; }
+
+.zzSTDTitle1, .MsoCommentText {
+  display: none; }
+
+.coverpage-logo span, .coverpage-tc-name span {
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0; }
+
+.coverpage-contributors {
+  margin-top: 1em;
+  line-height: 1.5em;
+  font-weight: 300; }
+  .coverpage-contributors .role {
+    font-variant-caps: all-small-caps;
+    background: #f7f7f7;
+    border-radius: 5px;
+    padding: 0.1em 0.5em;
+    margin-left: 1em;
+    color: #485094;
+    font-size: 0.9em;
+    font-weight: 900; }
+  .coverpage-contributors .person {
+    display: block;
+    font-weight: 300; }
+
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em; }
+
+.coverpage-title .title-second {
+  display: none; }
+
+.coverpage-stage-block {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase; }
+
+.coverpage-warning {
+  border-top: solid 1px #f36f36;
+  border-bottom: solid 1px #f36f36;
+  margin: 1em 2em;
+  color: #485094;
+  padding: 1em; }
+  .coverpage-warning .title {
+    color: #f36f36;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2em; }
+
+.copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left; }
+  .copyright .name, .copyright .address {
+    color: #485094; }
+
+#myBtn {
+  font-family: "Source Code Pro", monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #1d1d1d;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px; }
+  #myBtn:hover {
+    opacity: 1; }
+  @media print {
+    #myBtn {
+      display: none; } }
+a.anchorjs-link:hover {
+  background: none;
+  color: #485094;
+  box-shadow: none; }
+
+@page {
+  margin: 2cm 1cm 2cm 1cm; }
+
+@media print {
+  h1, .title-section1 {
+    page-break-before: always; }
+  h1.toc-contents {
+    margin-top: 2em; } }
+
+-->
+</style><title>CalConnect Directive: Intellectual property rights policy</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&amp;display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head>
+  <body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container">
+    <div class="title-section"><div class="document-stage-band" id="published-band">
+  <p class="document-stage">Published</p>
+</div>
+
+<div class="document-type-band" id="directive-band">
+  <p class="document-type">CalConnect Directive</p>
+</div>
+
+<div id="toggle"> <span>&#x2022;</span> </div>
+
+<header>
+
+  <!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+      <div class="coverpage-doc-identity">
+        <div class="doc-number">
+          <span class="docnumber">CC/DIR 10006:2019</span>
+          <!-- <span class="docnumber-separator">:</span>
+            <span class="docyear">2019</span> -->
+        </div>
+
+        <div class="coverpage-title">
+          <span class="title-first">CalConnect Directive: Intellectual property rights policy</span>
+          <!--<span class="title-second"></span>-->
+        </div>
+      </div>
+
+      <div class="coverpage-logo">
+        <span>The Calendaring and Scheduling Consortium</span>
+      </div>
+
+      <div class="coverpage-tc-name">
+        <span>TC PUBLISH</span>
+      </div>
+
+      
+
+      
+
+      <div class="coverpage-contributors">
+        
+
+      </div>
+    </div>
+
+    <div class="title-section1">
+      <div class="coverpage-stage-block">
+        <span class="coverpage-stage" id="directive">CalConnect Directive</span>
+      </div>
+
+      <div class="coverpage-stage-block">
+        <span class="coverpage-maturity" id="published"></span>
+      </div>
+
+      
+
+      <div class="copyright">
+        <div class="year">
+          <div class="boilerplate-copyright">
+    <div>
+      <p id="_c1f59846-0b19-4b0f-85e9-dc6b2e2b86fb">&#xA9; 2019 The Calendaring and Scheduling Consortium, Inc. </p>
+    </div>
+  </div>
+        </div>
+
+        <div class="message">
+          <div class="boilerplate-legal">
+    <div>
+      <p id="_c8c5a41d-54d6-4164-a22e-1684c2024c26">All rights reserved. Unless otherwise specified, no part of this
+        publication may be reproduced or utilized otherwise in any form or by any
+        means, electronic or mechanical, including photocopying, or posting on the
+        internet or an intranet, without prior written permission. Permission can
+        be requested from the address below.  </p>
+    </div>
+  </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="boilerplate-feedback">
+    <div>
+      <p id="boilerplate-name">The Calendaring and Scheduling Consortium, Inc.</p>
+      <p id="boilerplate-address">4390 Chaffin Lane<br />
+        McKinleyville<br />
+        California 95519<br />
+        United States of America<br />
+        <br />
+        <a href="mailto:copyright@calconnect.org">copyright@calconnect.org</a><br />
+        <a href="www.calconnect.org">www.calconnect.org</a>
+      </p>
+    </div>
+  </div>
+        </div>
+      </div>
+
+      <div class="rule"></div>
+    </div>
+  </div>
+</header>
+
+      <p>&#xA0;</p>
+    </div>
+    <br />
+    <div class="prefatory-section"><nav>
+  <h1 id="content">Contents</h1>
+  <div id="toc"><ul><li class="h1"><a href="#toc0">      Foreword</a></li><li class="h1"><a href="#toc1">      Introduction</a></li><li class="h2"><a href="#toc2">      General</a></li><li class="h2"><a href="#toc3">      Purpose</a></li><li class="h1"><a href="#toc4">      1.&#xA0; Scope</a></li><li class="h1"><a href="#toc5">      2.&#xA0; Normative references</a></li><li class="h1"><a href="#toc6">      3.&#xA0; Terms and definitions</a></li><li class="h1"><a href="#toc7">      4.&#xA0; Standardization activities</a></li><li class="h2"><a href="#toc8">      4.1.&#xA0; No confidential material</a></li><li class="h2"><a href="#toc9">      4.2.&#xA0; Mandatory disclosure of intellectual property rights</a></li><li class="h1"><a href="#toc10">      5.&#xA0; Contributions</a></li><li class="h2"><a href="#toc11">      5.1.&#xA0; No confidential material</a></li><li class="h2"><a href="#toc12">      5.2.&#xA0; Mandatory disclosure of intellectual property rights</a></li><li class="h2"><a href="#toc13">      5.3.&#xA0; Copyright provisions</a></li><li class="h2"><a href="#toc14">      5.4.&#xA0; Admission and usage</a></li><li class="h2"><a href="#toc15">      5.5.&#xA0; Reference</a></li><li class="h2"><a href="#toc16">      5.6.&#xA0; Source disclosure</a></li><li class="h2"><a href="#toc17">      5.7.&#xA0; IPR disclosure</a></li><li class="h2"><a href="#toc18">      5.8.&#xA0; Warranty</a></li><li class="h1"><a href="#toc19">      6.&#xA0; Trademarks</a></li><li class="h2"><a href="#toc20">      6.1.&#xA0; General</a></li><li class="h2"><a href="#toc21">      6.2.&#xA0; Impartiality of deliverables</a></li><li class="h2"><a href="#toc22">      6.3.&#xA0; Non-endorsement usage</a></li><li class="h2"><a href="#toc23">      6.4.&#xA0; Proper use references</a></li><li class="h1"><a href="#toc24">      Bibliography</a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+
+      <p>&#xA0;</p>
+    </div>
+    <br />
+    <main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <div class="authority">
+  
+
+
+
+  
+
+  
+</div>
+      <br />
+      <div id="_0bf33f85-fc29-4f1b-b9e3-c053a0626249">
+        <h1 class="ForewordTitle" id="toc0">Foreword</h1>
+        <p id="_8ffd8a7b-a571-4ac4-89ec-e28ecbcf0b3c">The Calendaring and Scheduling Consortium (&#x201C;CalConnect&#x201D;) is a global
+non-profit organization with the aim to facilitate interoperability of
+collaborative technologies and tools through open standards.</p>
+        <p id="_15b2ff2f-4780-4677-a60e-57ec1ab11ace">CalConnect works closely with international and regional partners,
+of which the full list is available on our website
+(<a href="https://www.calconnect.org/about/liaisons-and-relationships">https://www.calconnect.org/about/liaisons-and-relationships</a>).</p>
+        <p id="_705f1a1f-1d89-48ce-8829-903e3a4ab43d">The procedures used to develop this document and those intended for its
+further maintenance are described in the CalConnect Directives.</p>
+        <p id="_4e970d20-ae86-47bf-b93c-8b34bf1fbf71">In particular the different approval criteria needed for the different
+types of CalConnect documents should be noted. This document was drafted in
+accordance with the editorial rules of the CalConnect Directives.</p>
+        <p id="_e2e4ef6f-668d-4883-8f68-12beac6ae2c1">Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be
+held responsible for identifying any or all such patent rights. Details
+of any patent rights identified during the development of the document
+will be provided in the Introduction.</p>
+        <p id="_0d97e040-7bb7-4e3e-952f-9644aa236dae">Any trade name used in this document is information given for the
+convenience of users and does not constitute an endorsement.</p>
+        <p id="_1be3829d-155d-4fd2-9be0-4ebb4b204f2b">This document was prepared by Technical Committee
+<i>PUBLISH</i>.</p>
+      </div>
+      <br />
+      <div class="Section3" id="_introduction">
+        <h1 class="IntroTitle" id="toc1">Introduction</h1>
+        <div id="_general"><h2 id="toc2">General</h2><p id="_a3876364-73d3-4263-b23d-00c52d6f949d">CalConnect is committed to expanding the realm of standards
+in collaborative technologies with a focus on interoperability
+across the globe and communities of practice.</p>
+<p id="_018e7b2a-a7d5-4271-b3be-814e300f3038">In the CalConnect standardization process described in <a href="#CCSTD">CC/DIR 10001:2019</a>,
+contributions are received from various forms and parties.
+As a proponent of open standards, CalConnect is required to
+address any intellectual property rights in such contributions
+to be able to publish standardization deliverables.</p>
+<p id="_4dfead4b-d769-483b-ae24-78104b45d51c">This document details the IPR policy of CalConnect covering
+all CalConnect standardization activities, covering
+generally the following categories:</p>
+<ul id="_b5fc69cc-edea-471f-9ca3-a19c865719fa">
+<li>
+<p id="_dfc946e4-e5c5-4725-88d1-74ce3d26eab8">Copyright</p>
+</li>
+<li>
+<p id="_1ab650b7-97a6-4ea9-bd31-f87e632ffe64">Trademarks</p>
+</li>
+<li>
+<p id="_07ebffae-8f16-4cc7-b3f7-3abc9bb656ad">Patents</p>
+</li>
+</ul></div>
+        <div id="_purpose"><h2 id="toc3">Purpose</h2><p id="_b5bb9464-21da-407d-8717-ad311b4c7b62">This document describes the intellectual property rights policy of
+CalConnect that aims to be simple and straightforward.</p>
+<p id="_8650722e-822f-4180-85ee-42483be3ab9c">CalConnect deliverables are drawn up by technical, not IPR, experts,
+who may not be fully aware of all nuances in the complex
+international legal situation of intellectual property rights.</p>
+<p id="_a6b2f9d2-da32-4766-a51b-4ae7e4026332">CalConnect deliverables are non-binding&#x2009;&#x2014;&#x2009;their objective is to ensure
+compatibility of technologies and systems on a worldwide basis.</p>
+<p id="_5145bc66-d488-456d-8468-08ba0baa365e">To ensure the applicability and accessibility of CalConnect
+deliverables, the implementation and continued usage of content within
+the deliverables must be possible to the worldwide audience without
+discrimination, including any intellectual property rights embodiment
+in such deliverables.</p></div>
+      </div>
+      <p class="zzSTDTitle1">CalConnect Directive: Intellectual property rights policy</p>
+      <div id="_scope">
+        <h1 id="toc4">1.&#xA0; Scope</h1>
+        <p id="_eeecc675-3d38-4320-95d3-c5bd7a199660">This document provides the CalConnect intellectual property rights
+policy, which governs all standardization activities at CalConnect.</p>
+        <p id="_876819c0-e96e-45b0-a4d2-20764c4abd99">The CalConnect patent policy is described in <a href="#CCPAT">CC/DIR 10003:2019</a>.</p>
+      </div>
+      <div><h1 id="toc5">2.&#xA0; Normative references</h1><p id="_4c7642ab-ce92-41b1-afa3-b82d83bdf1a0">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p> <p id="CCSTD" class="NormRef">CC CC/DIR 10001:2019, <i>CalConnect Directive: Standardization and publication</i></p> <p id="CCPAT" class="NormRef">CC CC/DIR 10003:2019, <i>CalConnect Directive: Patent policy</i></p></div>
+      <div id="terms"><h1 id="toc6">3.&#xA0; Terms and definitions</h1><p id="_fbae3ab9-5d67-45e9-bc1d-ea97942975e2">For the purposes of this document, the terms and definitions
+  given in <a href="#CCSTD">CC CC/DIR 10001:2019</a> and the following apply.</p><h2 class="TermNum" id="term-contribution">3.1.&#xA0;<p class="Terms" style="text-align:left;">contribution</p></h2><p id="_e1e73434-94e0-42f6-8a7d-0f9eaea5c569">material provided as input to a CalConnect standardization activity</p>
+<div class="Note"><p>Note 1 to entry: a contribution can be provided by a member of CalConnect or an external party</p></div><h2 class="TermNum" id="_contributor">3.2.&#xA0;<p class="Terms" style="text-align:left;">contributor</p></h2>
+
+<p id="_0c5973cf-2565-430b-aef5-ac5eebeac9e3">party that provides a <i>contribution</i> (<a href="#term-contribution">Clause 3.1</a>)</p>
+</div>
+      <div id="standardization-activities">
+        <h1 id="toc7">4.&#xA0; Standardization activities</h1>
+        <div id="confidentiality"><h2 id="toc8">4.1.&#xA0; No confidential material</h2><p id="_657f0238-5c68-47d0-88ae-f5f54bd76bc9">No confidential material is to be discussed at or during CalConnect standardization activities.</p>
+<p id="_0be9b9e1-5576-4f59-9068-17b696531c1b">All information provided or discussed in CalConnect activities is presumed to be public information and member participants are reminded that they should not discuss or reveal any confidential information of their respective organizations.</p>
+<p id="_fcb7d9ce-93a7-46c7-960d-753d53ba7737">While work in progress within CalConnect is not publicly available outside CalConnect, with minor exceptions, completed work products of CalConnect are intended to be publicly and freely available, and will be posted on the CalConnect web site.</p></div>
+        <div id="_mandatory_disclosure_of_intellectual_property_rights"><h2 id="toc9">4.2.&#xA0; Mandatory disclosure of intellectual property rights</h2><p id="_9b160dcf-b850-4427-8c02-80c318f4d449">Discussions that relate to known or potential intellectual property rights during CalConnect standardization activities must be performed under full disclosure of such rights.</p>
+<p id="_277f835a-42fc-4764-b150-fe27abab51ba">Individuals participating in the activities of CalConnect are responsible for determining that such rights when known, must be disclosed in accordance with this provision.</p></div>
+      </div>
+      <div id="contributions">
+        <h1 id="toc10">5.&#xA0; Contributions</h1>
+        <div id="_no_confidential_material"><h2 id="toc11">5.1.&#xA0; No confidential material</h2>
+
+<p id="_cf4b636c-6841-46b2-a12c-5840c0bb8ee1">Participants in CalConnect standardization activities must avoid providing contributions containing confidential material, regardless whether provided in person or via electronic means.</p>
+</div>
+        <div id="_mandatory_disclosure_of_intellectual_property_rights_2"><h2 id="toc12">5.2.&#xA0; Mandatory disclosure of intellectual property rights</h2><p id="_a831c30f-55de-49c2-889e-89037eb21866">Contributions which contain intellectual property of an organization must be disclosed and are subject to the rules and guidance provided in this document.</p>
+<p id="_727f60c2-060b-490a-bca7-edd7e880ce32">Such contributions shall be avoided unless such material can be shown to be, in the judgment of the participants in the activity and the CalConnect Board of Directors, essential to the work.</p>
+<p id="_36dcdca5-ef6f-4f21-adce-71cbe8f448f4">No material which is subject to any terms of confidentiality or restriction of dissemination on the part of its contributor or the contributor&#x2019;s organization can be accepted for such use.</p>
+<p id="_202f0e5b-d47a-4a75-98f6-f1d9c0e23af1">Individuals participating in the activities of CalConnect are responsible for determining that material which they contribute is made available by their organizations in accordance with this provision.</p></div>
+        <div id="_copyright_provisions"><h2 id="toc13">5.3.&#xA0; Copyright provisions</h2><p id="_56891e81-da9c-434d-a740-8a7534563c9d">If any part of a contribution is or may be subject to copyright, the contributor and his or her organization, and any other owners of any proprietary rights in the contribution, grant CalConnect a world-wide, non-exclusive, non-sub-licensable license (except for the submission and adoption by other standardization bodies), to use contents of submitted documents to CalConnect, for the development and publishing of the deliverables.</p>
+<p id="_324d43b8-d797-43de-afed-81c442eae176">This license includes the right to copy, publish and distribute the contribution in any way, and to prepare derivative works that are based on or incorporate all or part of the contribution, the license to such derivative works to be of the same scope as the license of the original contribution.</p>
+<div id="_bc2b390a-7946-49b6-a929-983c69cdf666" class="Note"><p><span class="note_label">NOTE</span>&#xA0; This is in alignment with <a href="#IETFRFC2026">RFC 2026, Clause 10.3.1.1</a>.</p></div></div>
+        <div id="_admission_and_usage"><h2 id="toc14">5.4.&#xA0; Admission and usage</h2><p id="_298393e2-44f6-4baa-bc00-7aff8bf475c1">CalConnect has no duty to admit, publish or otherwise use or disseminate any contribution.</p>
+<div id="_b0533ac9-e302-4269-bdba-ae0df7a89711" class="Note"><p><span class="note_label">NOTE</span>&#xA0; This is in alignment with <a href="#IETFRFC2026">RFC 2026, Clause 10.3.1.2</a>.</p></div></div>
+        <div id="_reference"><h2 id="toc15">5.5.&#xA0; Reference</h2><p id="_966f6e21-e1fa-41af-95f2-27feccbd1cba">The contributor grants permission to reference the names and
+addresses of contributors of a contribution and of the organizations he or she
+represents (if any).</p>
+<div id="_1c8a9f72-7b39-4512-b43a-a70e6c6cdaa8" class="Note"><p><span class="note_label">NOTE</span>&#xA0; This is in alignment with <a href="#IETFRFC2026">RFC 2026, Clause 10.3.1.3</a>.</p></div></div>
+        <div id="_source_disclosure"><h2 id="toc16">5.6.&#xA0; Source disclosure</h2><p id="_331e7417-2808-4d11-83d9-786f8a426331">A contribution must properly acknowledge all major contributors of that contribution.</p>
+<div id="_9949b2a9-5560-4e71-bc7d-c0d2ed6cd9a1" class="Note"><p><span class="note_label">NOTE</span>&#xA0; This is in alignment with <a href="#IETFRFC2026">RFC 2026, Clause 10.3.1.4</a>.</p></div></div>
+        <div id="_ipr_disclosure"><h2 id="toc17">5.7.&#xA0; IPR disclosure</h2><p id="_892f8803-5c9c-4d86-8c6f-109e16ece28b">The contributor when submitting a contribution, represents
+that he or she has disclosed the existence of
+any proprietary or intellectual property rights in the
+contribution that are reasonably and personally known to the
+contributor.</p>
+<p id="_dff8c610-881e-4f85-976a-f48a066735bb">The contributor does not represent that he or she
+personally knows of all potentially pertinent proprietary and
+intellectual property rights owned or claimed by the organization
+he represents (if any) or third parties.</p>
+<p id="_4a4a9526-da9f-4d88-884e-69a9c8603055">For patents, please refer to the CalConnect Patent Policy at <a href="#CCPAT">CC/DIR 10003:2019</a>.</p>
+<div id="_7ac46900-4fc8-4234-a5e2-7739d4cb07fe" class="Note"><p><span class="note_label">NOTE</span>&#xA0; This is in alignment with <a href="#IETFRFC2026">RFC 2026, Clause 10.3.1.5</a> and <a href="#IETFRFC2026">RFC 2026, Clause 10.3.1.6</a>.</p></div></div>
+        <div id="_warranty"><h2 id="toc18">5.8.&#xA0; Warranty</h2><p id="_6faece13-0780-4bca-b56c-6b6f7dc1c10f">The contributor is deemed to agree to the terms and conditions
+set in this document when submitting a contribution.</p>
+<p id="_7eb81a78-8991-46fe-81b5-4eac80ceb807">The contributor represents that there are no limits to the
+contributor&#x2019;s ability to make the grants acknowledgments and
+agreements detailed in this document that are reasonably and personally known to the
+contributor.</p>
+<p id="_843097b1-3f0e-4ea3-9b4a-b1439bbc5976">This agreement is made on his or her own behalf, on behalf of the organization (if any),
+or on behalf of the owners of any propriety rights in the
+contribution.</p>
+<p id="_99b5385d-9fb3-4abe-8e9d-d211276fed19">Where a contribution identifies contributors in
+addition to the contributor(s) who provided it, the
+submitter(s) represent that each other named contributor was
+made aware of and agreed to accept the same terms and conditions on
+his own behalf, on behalf of any organization he may represent and
+any known owner of any proprietary rights in the contribution.</p>
+<p id="_fc845207-4b5d-40c8-8df7-abe293e28a1a">This warrant is perpetual and will not be revoked by CalConnect or its
+successors or assigns.</p>
+<div id="_f13de926-13c8-40c0-9816-f82e8fe5eac7" class="Note"><p><span class="note_label">NOTE</span>&#xA0; This is in alignment with <a href="#IETFRFC2026">RFC 2026, Clause 10.3.1</a>.</p></div></div>
+      </div>
+      <div id="_trademarks">
+        <h1 id="toc19">6.&#xA0; Trademarks</h1>
+        <div id="_general_2"><h2 id="toc20">6.1.&#xA0; General</h2>
+
+<p id="_b20186fd-f34a-40bc-9b4f-f01b48f94f20">The requirements listed in this clause aligns with <a href="#ITUMARKS">ITU-T Marks Guidelines 2.0</a>.</p>
+</div>
+        <div id="_impartiality_of_deliverables"><h2 id="toc21">6.2.&#xA0; Impartiality of deliverables</h2><p id="_c2873252-2c1d-4cf8-bf4e-bf8542891d80">Proper names, trademarks, service marks or certification marks of specific companies/organizations, products or services should not be included in the text of a CalConnect standardization deliverable if it appears that they might cause any endorsement effect on a reader of the deliverable.</p>
+<div id="_12b2613b-0cba-4d18-bfc4-6b66fa5f7c91" class="Note"><p><span class="note_label">NOTE</span>&#xA0; CalConnect standardization deliverables generally provide a description
+of features from which interoperable implementations can be developed.
+As such, the appearance of an endorsement of products, services and
+companies/organizations are not acceptable.</p></div></div>
+        <div id="_non_endorsement_usage"><h2 id="toc22">6.3.&#xA0; Non-endorsement usage</h2><p id="_ae9b5128-3387-4c67-942d-cd9160f854f9">Trademarks, service marks or certification marks may be included in a CalConnect standardization deliverable in order to describe certain technologies or services pertaining to the relevant marks, given that the inclusion does not cause appearance of an endorsement.</p>
+<p id="_a007984e-a4a8-4688-8722-347b7cdc53d9">Here are some situations where this usage is acceptable.</p>
+<ol type="a" id="_50a4445f-0cc2-4b1f-bbac-5318b1af8eab">
+<li>
+<p id="_f36934e2-0e79-44bf-845f-b580b13d43c9">The mark is used to refer to a particular facility that is widely recognized as a sole authorized source.<br /></p>
+<div id="_1515a745-fbe6-40b3-a0c9-9814a9e6fde7" class="example"><p class="example-title">EXAMPLE  1</p>
+<p id="_59f30e6c-4872-4bcf-ac34-59cf4a4e7726">A reference to a proprietary service with a trademark associated with a specific protocol identifier allocated by the ITU-T or IANA.</p>
+</div>
+</li>
+<li>
+<p id="_84a1482d-9bde-443f-b693-569d0ccc68b3">The mark is contained in the designation of a reference.<br /></p>
+<div id="_9cb62bbe-d29e-4931-94a0-b830e38264be" class="example"><p class="example-title">EXAMPLE  2</p>
+<p id="_a8776b47-08da-4c5f-a210-b6f74efaef55">Standards bodies often include their name as part of the identifier of their standards. A deliverable may reference &#x201C;ISO/IEC xxxx&#x201D;, &#x201C;ITU-T xxxx&#x201D;, where &#x201C;ISO&#x201D;, &#x201C;IEC&#x201D; and &#x201C;ITU-T&#x201D; are protected marks.</p>
+</div>
+</li>
+<li>
+<p id="_5b40e2ef-5d6f-4b89-80eb-ac3dfc052616">The mark is a well-known reference to a standardized industry approach.<br /></p>
+<div id="_e09cefa9-6932-43e0-a2ed-57e9f80958eb" class="example"><p class="example-title">EXAMPLE  3</p>
+<p id="_2217bc7d-f32e-4b6e-ba8d-9437e83f9a1a">&#x201C;WiFi&#x201D;, &#x201C;Bluetooth&#x201D;, &#x201C;GSM&#x201D;.</p>
+</div>
+</li>
+</ol></div>
+        <div id="_proper_use_references"><h2 id="toc23">6.4.&#xA0; Proper use references</h2><p id="_67dc175c-6fc6-49ac-bfc9-5b152a72699b">With justifiable reasons, it is permissible to make &#x201C;proper use&#x201D;
+references to marks owned by an external party in a
+CalConnect standardization deliverable, however the usage
+shall adhere to the following guidelines set below in order to
+avoid infringement of rights relating to such marks.</p>
+<p id="_d5d63b55-9b0d-4caf-8183-936ad1a25d24">A mark shall only be used as part of accurate, factual statements
+as a means to identify (but not to endorse) a particular object (such as the designations of referenced standards in the text of a deliverable).</p>
+<p id="_3fdeb41b-5ba7-4f9a-98e1-4c3765008fb8">Marks should be used in accordance with the following guidelines:</p>
+<ol type="a" id="_b64ef4c4-edd5-45e5-b86d-e4e8d094bd69">
+<li>
+<p id="_3e711b16-c32c-4cbd-ac19-92c8c9cb29d8">a mark should be used as a proper adjective followed by a generic name or noun;<br /></p>
+<div id="_5d313654-d183-4dc4-b4f5-2883b890fc26" class="Note"><p><span class="note_label">NOTE</span>&#xA0; Marks are proper adjectives that indicate the source of goods, services or things, and not to be used as a verb or noun.</p></div>
+</li>
+<li>
+<p id="_b48b093d-7910-432d-a9b8-1fba42702164">marks must not be combined in text;</p>
+</li>
+<li>
+<p id="_0898c943-b32c-496e-b822-0fc87aed6b70">marks must not be altered, shortened or abbreviated.</p>
+</li>
+</ol></div>
+      </div>
+      <br />
+      <div><h1 class="Section3" id="toc24">Bibliography</h1><p id="CCDOC" class="Biblio">[1]&#xA0; CC CC/DIR 10002:2019, <i>CalConnect Directive: Standard document requirements</i></p><p id="IETFRFC2026" class="Biblio">[2]&#xA0; IETF RFC 2026, <i>The Internet Standards Process&#x2009;&#x2014;&#x2009;Revision 3</i></p><p id="ITUMARKS" class="Biblio">[3]&#xA0; ITU-T Marks Guidelines 2.0, <i>ITU-T GUIDELINES RELATED TO THE INCLUSION OF MARKS IN ITU-T RECOMMENDATIONS, Issue 2.0</i>, November 2005.</p><p id="ITUSoftware" class="Biblio">[4]&#xA0; ITU Software Copyright Guidelines, <i>ITU Software Copyright Guidelines</i>, 7/12/2011</p>  </div>
+    </main>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+  
+  <script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('.container').animate({ 'padding-left': '31px' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('.container').animate({ 'padding-left': '360px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+  <script>
+/*
+  $(document).ready(function() {
+          $('[id^=toc]').each(function ()
+          {
+             var currentToc = $(this);
+       var url = window.location.href;
+             currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "' </a>");
+          });
+});
+*/
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+</body>
+</html>
