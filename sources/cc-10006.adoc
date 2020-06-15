@@ -10,18 +10,12 @@
 :published-date: 2019-03-18
 :script: Latn
 :technical-committee: PUBLISH
-:draft:
-:toc:
-:stem:
-:xrefstyle: short
 :imagesdir: images
 :docfile: cc-10006.adoc
 :mn-document-class: csd
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
 :data-uri-image:
-:sectnums!:
-
 
 .Foreword
 The Calendaring and Scheduling Consortium ("`CalConnect`") is a global
