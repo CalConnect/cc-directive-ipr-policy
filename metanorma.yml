@@ -1,8 +1,9 @@
 ---
 metanorma:
-  deploy:
-    email: "ci@metanorma.org"
-relaton:
+  source:
+    files:
+      - sources/cc-10006.adoc
+
   collection:
-    name: CalConnect Directives
+    name: "Directive: IPR policy"
     organization: CalConnect
