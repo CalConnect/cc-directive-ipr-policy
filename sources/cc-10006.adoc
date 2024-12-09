@@ -8,11 +8,9 @@
 :status: published
 :revdate: 2019-03-18
 :published-date: 2019-03-18
-:script: Latn
 :technical-committee: PUBLISH
 :imagesdir: images
-:docfile: cc-10006.adoc
-:mn-document-class: csd
+:mn-document-class: cc
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
 :data-uri-image:
