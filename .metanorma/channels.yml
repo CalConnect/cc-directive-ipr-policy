@@ -1,5 +1,5 @@
-# .metanorma/channels.yml — cc-directive-ipr-policy
+# .metanorma/channels.yml — cc-ipr-policy
 
 channels:
   - name: public/directives
-    description: "CalConnect documents from cc-directive-ipr-policy"
+    description: "CalConnect documents from cc-ipr-policy"

@@ -1,4 +1,4 @@
-# metanorma.release.yml — cc-directive-ipr-policy
+# metanorma.release.yml — cc-ipr-policy
 
 documents:
   - pattern: "cc-*"
