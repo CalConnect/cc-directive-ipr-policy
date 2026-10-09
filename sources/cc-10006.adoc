@@ -49,6 +49,12 @@ convenience of users and does not constitute an endorsement.
 This document was prepared by Technical Committee
 _{technical-committee}_.
 
+[abstract]
+== Abstract
+
+This document provides the CalConnect intellectual property rights policy, which governs all standardization activities at CalConnect. The CalConnect patent policy is described in a separate CalConnect Directive.
+
+
 == Introduction
 
 === General
